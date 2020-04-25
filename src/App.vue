@@ -1,15 +1,16 @@
 <template>
   <div id="app">
-    <h2>123</h2>
-    <img src="@/assets/img/2.jpg" alt="" />
+    <main-tab-bar></main-tab-bar>
   </div>
 </template>
 
 <script>
+import mainTabBar from "@/components/mainTabBar";
 export default {
   name: "App",
-  router,
-  components: {}
+  components: {
+    mainTabBar
+  }
 };
 </script>
 
