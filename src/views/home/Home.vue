@@ -1,20 +1,18 @@
 <template>
   <div>
-    <img src="@/assets/img/2.jpg" alt />
+    <nav-bar>
+      <div slot="center">商品信息</div>
+    </nav-bar>
   </div>
 </template>
 <script>
+import NavBar from "@/components/common/navbar/NavBar";
 export default {
-  name: "Home"
+  name: "Home",
+  components: {
+    NavBar
+  }
 };
 </script>
 <style scoped>
-div {
-  width: 100%;
-  height: 620px;
-}
-img {
-  width: 100%;
-  height: 100%;
-}
 </style>
